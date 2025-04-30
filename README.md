@@ -10,10 +10,7 @@ A quick lab to practice **DOM selection**, **event handling**, and class-based t
 
 ## Learning Goals
 
-- Select elements with `document.querySelector` / `getElementById`
-- Attach listeners via `addEventListener`
-- Toggle a class on `<body>` using `classList.toggle()`
-- Organize work with clear, incremental Git commits
+
 
 ---
 
