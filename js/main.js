@@ -1,7 +1,15 @@
 function toggleDarkMode() {
-    // This function should toggle the dark mode class on the body
-    // comment out the alert below and replace it with your code
-    alert("change color in this function");
+  // This function should toggle the dark mode class on the body
+  // comment out the alert below and replace it with your code
+  //alert("change color in this function");
+
+  let bodyElement = document.body
+
+  // log only when activating dark mode.
+  if (bodyElement.classList.toggle("dark")) { console.log('changed to dark mode.') }
+
+
+
   /*
     TODO: Replace the alert above with code that toggles
     the 'dark' class on <body>.
