@@ -1,13 +1,8 @@
-function toggleDarkMode() {
-    // This function should toggle the dark mode class on the body
-    // comment out the alert below and replace it with your code
-    alert("change color in this function");
-  /*
-    TODO: Replace the alert above with code that toggles
-    the 'dark' class on <body>.
-  */
-}
+const toggleBtn = document.querySelector("#toggle-btn");
 
-document
-  .getElementById("toggle-btn")
-  .addEventListener("click", toggleDarkMode);
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  const isDark = document.body.classList.contains("dark");
+  toggleBtn.setAttribute("aria-pressed", isDark);
+});
